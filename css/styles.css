@@ -1,0 +1,62 @@
+:root {
+	--color-principal: #233946;
+	--color-secundario: #213745;
+	--color-terciario: #046f7a;
+}
+body {
+	font-family: 'Indie Flower', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Kulim Park', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1.5;
+	letter-spacing: -0.2px;
+	text-transform: capitalize;
+	color: white;
+}
+h1 strong {
+	color: cadetblue;
+}
+.header {
+	background-color: var(--color-principal);
+	color: white;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+}
+.header a:hover {
+	color: #dddddd;
+}
+.header ol {
+	list-style: none;
+}
+.hero {
+	height: 200px;
+	background-image: url(../img/wallpaper.jpg);
+	background-color: var(--color-secundario);
+	background-size: 500px 200px;
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+.project {
+	border: 5px solid #233946;
+	border-radius: 10px;
+}
+.project-details {
+	width: 500px;
+}
+.project-image-container {
+	width: 500px;
+}
