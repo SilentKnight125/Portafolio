@@ -5,6 +5,7 @@
 }
 body {
 	font-family: 'Indie Flower', sans-serif;
+	margin: 0px;
 }
 
 h1,
@@ -19,11 +20,13 @@ h6 {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 1.5;
 	letter-spacing: -0.2px;
 	text-transform: capitalize;
 	color: white;
+	margin: 0px 500px 0px 0px;
+	padding: 10px 10px;
 }
 h1 strong {
 	color: cadetblue;
@@ -31,6 +34,9 @@ h1 strong {
 .header {
 	background-color: var(--color-principal);
 	color: white;
+	margin: 0px 0px;
+	display: flex;
+	height: 50px;
 }
 .header a {
 	color: white;
@@ -39,9 +45,23 @@ h1 strong {
 .header a:hover {
 	color: #dddddd;
 }
-.header ol {
-	list-style: none;
+.header-menu {
+	margin: 0px 0px;
 }
+.header-menu ol {
+	list-style: none;
+	margin: 2px 12px;
+	padding: 2px 2px;
+}
+.header-menu li {
+	display: inline;
+	margin: 0px 5px;
+}
+.header-image {
+	width: 50px;
+	height: 50px;
+}
+
 .hero {
 	height: 200px;
 	background-image: url(../img/wallpaper.jpg);
@@ -49,14 +69,34 @@ h1 strong {
 	background-size: 500px 200px;
 	background-repeat: no-repeat;
 	background-position-x: right;
+	margin: 20px 0px;
+}
+.portfolio {
+	background-color: #fafafa;
+	margin: 20px 5px;
 }
 .project {
 	border: 5px solid #233946;
 	border-radius: 10px;
+	margin: 10px 0px;
+	margin-bottom: 25px;
+	background-color: lightblue;
+	/* box-sizing: border-box; */
 }
 .project-details {
 	width: 500px;
+	padding: 5px 15px;
 }
 .project-image-container {
-	width: 500px;
+	width: 120px;
+	height: 120px;
+}
+.project-image {
+	width: 100px;
+	height: 100px;
+}
+.portfolio h2 {
+	margin: 20px 10px;
+	padding: 20px 10px;
+	padding-bottom: 0px;
 }
