@@ -2,12 +2,16 @@
 	--color-principal: #233946;
 	--color-secundario: #213745;
 	--color-terciario: #046f7a;
+	--color-cool: #272b2e;
 }
 body {
 	font-family: 'Indie Flower', sans-serif;
+	font-style: normal;
 	margin: 0px;
 }
-
+img {
+	object-fit: cover;
+}
 h1,
 h2,
 h3,
@@ -20,16 +24,21 @@ h6 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 45px;
 	line-height: 1.5;
 	letter-spacing: -0.2px;
 	text-transform: capitalize;
 	color: white;
-	margin: 0px 500px 0px 0px;
-	padding: 10px 10px;
+	line-height: 1.1;
+	margin: 0;
+	padding: 0px 5px;
 }
 h1 strong {
 	color: cadetblue;
+}
+h2 {
+	color: cadetblue;
+	text-transform: uppercase;
 }
 .header {
 	background-color: var(--color-principal);
@@ -37,48 +46,68 @@ h1 strong {
 	margin: 0px 0px;
 	display: flex;
 	height: 50px;
+	justify-content: space-between;
+	align-items: center;
 }
 .header a {
 	color: white;
 	text-decoration: none;
+	display: flex;
+	height: inherit;
+	align-items: center;
+	padding: 0px 10px;
 }
 .header a:hover {
 	color: #dddddd;
 }
 .header-menu {
-	margin: 0px 0px;
+	height: inherit;
 }
 .header-menu ol {
+	display: flex;
 	list-style: none;
-	margin: 2px 12px;
-	padding: 2px 2px;
+	height: inherit;
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
 }
 .header-menu li {
-	display: inline;
-	margin: 0px 5px;
+	height: inherit;
+	display: flex;
+	align-items: center;
 }
 .header-image {
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
 }
-
+.header-image-container {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	height: inherit;
+}
 .hero {
 	height: 200px;
 	background-image: url(../img/wallpaper.jpg);
-	background-color: var(--color-secundario);
+	background-color: var(--color-cool);
 	background-size: 500px 200px;
 	background-repeat: no-repeat;
 	background-position-x: right;
-	margin: 20px 0px;
+	margin: 0px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 .portfolio {
 	background-color: #fafafa;
-	margin: 20px 5px;
+	margin: 0px 0px;
+	padding: 20px;
 }
 .project {
+	display: flex;
 	border: 5px solid #233946;
 	border-radius: 10px;
-	margin: 10px 0px;
 	margin-bottom: 25px;
 	background-color: lightblue;
 	/* box-sizing: border-box; */
@@ -86,6 +115,7 @@ h1 strong {
 .project-details {
 	width: 500px;
 	padding: 5px 15px;
+	text-align: justify;
 }
 .project-image-container {
 	width: 120px;
@@ -96,7 +126,26 @@ h1 strong {
 	height: 100px;
 }
 .portfolio h2 {
-	margin: 20px 10px;
-	padding: 20px 10px;
-	padding-bottom: 0px;
+	margin: 0px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+}
+.footer {
+	display: flex;
+	color: #ffffff;
+	background-color: var(--color-cool);
+	align-items: center;
+	justify-content: space-between;
+}
+.footer img {
+	width: 100px;
+	height: 100px;
+	vertical-align: middle;
+	margin: 0px -20px;
+}
+.footer a {
+	color: #ffffff;
+}
+.footer span {
+	position: relative;
 }
