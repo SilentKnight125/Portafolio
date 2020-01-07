@@ -239,17 +239,17 @@ h6 {
 	height: 50px;
 }
 .social-link.ins {
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGgUAbo9cbvHLvXkb0P3oNqqRSAkZgzlJ5kQfnKeRgVF9JXOUW');
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcFtAdAzWShcbaQjix4liXtnQtZby5ml68cRtCulFwpYYEZSV_');
 	background-size: 50px 50px;
 	border-radius: 50%;
 }
 .social-link.fb {
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQosUZfJ2ZKMpLeYOXL1DUqDTD15TW0C-WvZiV6FGWC_NzuEBRS');
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1024px-Facebook_logo_36x36.svg.png');
 	background-size: 50px 50px;
 	border-radius: 50%;
 }
 .social-link.github {
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTMnCDCyPyzI5zd_B2wKkkNEZ8k1JvmZWq5ydNNEm0eS_41Icju');
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKkCEsmCwUA7szQBuaO-3KrU4CEvRab1IrqmA22V1TKOYJ2shY');
 	background-size: 50px 50px;
 	border-radius: 50%;
 }
