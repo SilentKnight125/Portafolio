@@ -47,7 +47,7 @@ h2 {
 	margin: 0px 0px;
 	display: flex;
 	height: 110px;
-	max-width: 1160px;
+	width: auto;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -177,7 +177,7 @@ h6 {
 	display: flex;
 	color: #ffffff;
 	background-color: var(--color-cool2);
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 	display: flex;
 	flex-wrap: wrap;
@@ -202,9 +202,13 @@ h6 {
 .about {
 	height: auto;
 	width: 300px;
+	align-items: flex-start;
 }
 .about h2 {
 	margin: 15px 0px;
+}
+.about p {
+	margin: 0px;
 }
 .contact {
 	height: auto;
